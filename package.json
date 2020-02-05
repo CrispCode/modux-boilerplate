@@ -1,0 +1,32 @@
+{
+    "name": "modux-boilerplate",
+    "version": "1.0.0",
+    "author": "Vlad Filip ( vlad.filip.dev@gmail.com )",
+    "description": "A minimal boilerplate project for modux",
+    "keywords": [
+        "modux",
+        "template",
+        "builder",
+        "env",
+        "environment",
+        "webpack"
+    ],
+    "bin": {
+        "modux-boilerplate": "./boilerplate.js"
+    },
+    "engines": {
+        "node": ">=12.0.0",
+        "npm": ">=6.0.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/CrispCode/modux-boilerplate.git"
+    },
+    "bugs": {
+        "url": "https://github.com/CrispCode/modux-boilerplate/issues"
+    },
+    "dependencies": {
+        "eslint": "^6.8.0",
+        "ncp": "^2.0.0"
+    }
+}
