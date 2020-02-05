@@ -38,6 +38,14 @@ getDirectories( __dirname + path.sep + 'templates' )
       Output.info( 'Avilable templates: ' )
       Output.write( '- ' + list.join( ',\n - ' ) )
     } else {
+      // Check external sources
+      try {
+        let moduleContent = require( template )
+        if ( moduleContent ) {
+          return execute( require.resolve( template ), template, command )
+        }
+      } catch ( err ) {}
+
       // Fallback
       return File.get( __dirname + path.sep + 'help.txt' ).exists()
         .then( ( file ) => {
