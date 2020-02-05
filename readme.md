@@ -5,7 +5,7 @@
 - Install modux-boilerplate via npm
 
 ```
-npm install modux-boilerplate -g
+npm install @crispcode/modux-boilerplate -g
 ```
 
 ## Usage
@@ -29,7 +29,7 @@ Fill the required information during the setup, and the project will create an e
 - You can use external templates by installing them with --global, and then using their name as template.
 - For example:
 ```
-    npm install modux-boilerplate -g
+    npm install @crispcode/modux-boilerplate -g
     npm install modux-template-test -g
 
     modux-boilerplate modux-template-test create
