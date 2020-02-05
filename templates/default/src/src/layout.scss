@@ -1,0 +1,11 @@
+@import "./../variables.scss";
+
+.layout {
+    display: block;
+    position: relative;
+
+    .page {
+        display: block;
+        position: relative;
+    }
+}

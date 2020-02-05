@@ -1,0 +1,14 @@
+@import "variables.scss";
+
+html {
+    color: $black;
+    font-family: 'roboto';
+    font-size: 1vw;
+}
+
+html, body {
+    display: block;
+    position: relative;
+    margin: 0;
+    padding: 0;
+}

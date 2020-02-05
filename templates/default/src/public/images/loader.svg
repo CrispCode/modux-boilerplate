@@ -1,0 +1,40 @@
+<svg id="logo_square_black" data-name="logo square black" xmlns="http://www.w3.org/2000/svg" width="250" height="100" viewBox="0 0 250 100">
+  <rect id="logo_square_white_background" data-name="logo square white background" width="250" height="100" fill="none"/>
+  <g id="block" transform="translate(57.143 57.143)">
+    <path id="block-2" data-name="block" d="M0,0V35.714H35.714V0Z" transform="translate(0 0)" fill="#ffc64d"/>
+  </g>
+  <g id="E" transform="translate(157.143 57.143)">
+    <path id="E-2" data-name="E" d="M0,35.714V0H35.714V7.143H7.143v7.143H35.714v7.143H7.143v7.143H35.714v7.143Z"/>
+  </g>
+  <g id="D" transform="translate(107.143 57.143)">
+    <g id="D-2" data-name="D" transform="translate(0 0)">
+      <path id="Path_5" data-name="Path 5" d="M0,0V35.714H28.571V28.571H7.143V7.143H28.571V0Z"/>
+      <path id="Path_6" data-name="Path 6" d="M7.143,21.429H0V0H7.143Z" transform="translate(28.571 7.143)"/>
+    </g>
+  </g>
+  <g id="C" transform="translate(7.143 57.143)">
+    <path id="C-2" data-name="C" d="M0,0H35.714V7.143H7.143V28.571H35.714v7.143H0Z" transform="translate(0)"/>
+  </g>
+  <g id="P" transform="translate(207.143 7.143)">
+    <path id="P-2" data-name="P" d="M0,35.714V0H35.714V21.429H7.143V14.286H28.571V7.143H7.143V35.714Z"/>
+  </g>
+  <g id="S" transform="translate(157.143 7.143)">
+    <path id="S-2" data-name="S" d="M35.714,0H.446V21.429H28.571v7.143H0l.446,7.143H35.714V14.286H7.143V7.143H35.714Z"/>
+  </g>
+  <g id="I" transform="translate(107.143 7.143)">
+    <path id="I-2" data-name="I" d="M0,0H35.714V7.143H21.429V28.571H35.714v7.143H0V28.571H14.286V7.143H0Z" transform="translate(0)"/>
+  </g>
+  <g id="R" transform="translate(57.143 7.143)">
+    <g id="R-2" data-name="R">
+      <path id="Path_2" data-name="Path 2" d="M0,0H28.571V7.143H7.143v7.143H28.571v7.143H7.143V35.714H0Z"/>
+      <path id="Path_3" data-name="Path 3" d="M0,0H7.143V7.143H0Z" transform="translate(28.571 7.143)"/>
+      <path id="Path_4" data-name="Path 4" d="M0,0H7.143V14.286H0Z" transform="translate(28.571 21.429)"/>
+    </g>
+  </g>
+  <g id="C-3" data-name="C" transform="translate(7.143 7.143)">
+    <path id="C-4" data-name="C" d="M0,0H35.714V7.143H7.143V28.571H35.714v7.143H0Z" transform="translate(0)"/>
+  </g>
+  <g id="block_copy" data-name="block copy" transform="translate(207.143 85.714)">
+    <path id="block-3" data-name="block" d="M0,0V7.143H35.714V0Z" transform="translate(0 0)"/>
+  </g>
+</svg>

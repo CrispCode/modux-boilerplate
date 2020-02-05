@@ -1,0 +1,41 @@
+{
+  "debug": true,
+
+  "images": "/images",
+  "fonts": "/fonts",
+
+  "preload": {
+    "images": {
+      "loader": "/loader.svg"
+    },
+
+    "fonts": [
+      {
+        "name": "roboto",
+        "src": [
+          {
+            "url": "/Roboto-Regular.ttf",
+            "format": "truetype"
+          }
+        ],
+        "style": {
+          "font-weight": 400,
+          "font-style": "normal"
+        }
+      },
+      {
+        "name": "roboto",
+        "src": [
+          {
+            "url": "/Roboto-Bold.ttf",
+            "format": "truetype"
+          }
+        ],
+        "style": {
+          "font-weight": "bold",
+          "font-style": "normal"
+        }
+      }
+    ]
+  }
+}

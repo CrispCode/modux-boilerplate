@@ -1,0 +1,25 @@
+{
+    "name": "<<% name %>>",
+    "version": "1.0.0",
+    "description": "<<% description %>>",
+    "author": "<<% author %>>",
+    "engines": {
+      "node": ">=10.0.0",
+      "npm": ">=6.0.0"
+    },
+    "repository": {
+      "type": "git",
+      "url": "<<% repository_url %>>"
+    },
+    "bugs": {
+      "url": "<<% issues_url %>>"
+    },
+    "dependencies": {
+      "@crispcode/modux": "^3.0.1"
+    },
+    "scripts": {
+      "test": "modux dev",
+      "build": "modux prod"
+    }
+  }
+  

@@ -12,7 +12,7 @@ npm install modux-boilerplate -g
 - Run the modux-boilerplate initialization command
 
 ```
-modux-boilerplate { template_name } init
+modux-boilerplate { template_name } create
 ```
 
 Fill the required information during the setup, and the project will create an environment in your current directory.
