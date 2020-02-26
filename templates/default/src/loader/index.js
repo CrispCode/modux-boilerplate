@@ -79,12 +79,12 @@ export class LoaderComponent extends Component {
           .then( () => {
             setTimeout( () => {
               this.show( false )
-              this.store.emit( 'preload' )
+              this.databus.emit( 'preload' )
             }, 100 )
           } )
           .catch( ( err ) => {
             logger.error( err.message )
-            this.store.emit( 'preload' )
+            this.databus.emit( 'preload' )
           } )
       } )
       .catch( ( err ) => {

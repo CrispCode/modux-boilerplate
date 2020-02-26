@@ -15,7 +15,7 @@
       "url": "<<% issues_url %>>"
     },
     "dependencies": {
-      "@crispcode/modux": "^3.0.3"
+      "@crispcode/modux": "^4.0.0"
     },
     "scripts": {
       "test": "modux dev",

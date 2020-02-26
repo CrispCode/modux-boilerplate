@@ -12,7 +12,7 @@ export class DemoComponent extends Component {
 
   execute () {
     // Waiting for preloader
-    this.store.on( 'preload', () => {
+    this.databus.on( 'preload', () => {
       this.element.innerHTML = '<h1>Ta da, Modux!</h1>'
     }, true )
   }

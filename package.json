@@ -1,6 +1,6 @@
 {
     "name": "@crispcode/modux-boilerplate",
-    "version": "1.0.1",
+    "version": "1.1.0",
     "author": "Crisp Code ( contact@crispcode.ro )",
     "access": "public",
     "description": "A minimal boilerplate project for modux",
