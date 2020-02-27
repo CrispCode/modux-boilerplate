@@ -12,19 +12,19 @@ export class LoaderComponent extends Component {
 
   get files () {
     let files = {}
-    loop( this.config.get( 'settings.preload.images' ), ( file, name ) => {
-      files[ name ] = { 'url': this.config.get( 'settings.images' ) + file, 'type': 'image' }
+    loop( this.store.get( 'settings.preload.images' ), ( file, name ) => {
+      files[ name ] = { 'url': this.store.get( 'settings.images' ) + file, 'type': 'image' }
     } )
     return files
   }
 
   get fonts () {
     let fonts = []
-    loop( this.config.get( 'settings.preload.fonts' ), ( data ) => {
+    loop( this.store.get( 'settings.preload.fonts' ), ( data ) => {
       let font = extend( {}, data )
       let src = []
       loop( data.src, ( file ) => {
-        src.push( 'url(\'' + this.config.get( 'settings.fonts' ) + file.url + '\') format(\'' + file.format + '\')' )
+        src.push( 'url(\'' + this.store.get( 'settings.fonts' ) + file.url + '\') format(\'' + file.format + '\')' )
       } )
       font.src = src
       fonts.push( font )
@@ -55,7 +55,7 @@ export class LoaderComponent extends Component {
   execute () {
     this.show( false )
 
-    const logo = this.config.get( 'settings.images' ) + this.config.get( 'settings.preload.images.loader' )
+    const logo = this.store.get( 'settings.images' ) + this.store.get( 'settings.preload.images.loader' )
     loader.preloadImage( 'loader', logo )
       .then( () => {
         this.show( true )
@@ -79,12 +79,12 @@ export class LoaderComponent extends Component {
           .then( () => {
             setTimeout( () => {
               this.show( false )
-              this.databus.emit( 'preload' )
+              this.store.set( 'action.preload', true )
             }, 100 )
           } )
           .catch( ( err ) => {
             logger.error( err.message )
-            this.databus.emit( 'preload' )
+            this.store.set( 'action.preload', true )
           } )
       } )
       .catch( ( err ) => {

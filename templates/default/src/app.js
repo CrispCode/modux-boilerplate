@@ -27,10 +27,10 @@ let initialize = () => {
   return communication.post( defaults.api.config )
     .then( ( response ) => {
       // Set configuration object
-      app.config.set( 'settings', extend( defaults, response ) )
+      app.store.set( 'settings', extend( defaults, response ) )
 
       // Set logger debug mode
-      logger.enabled( app.config.get( 'settings.debug' ) )
+      logger.enabled( app.store.get( 'settings.debug' ) )
 
       // Start application
       app.bootstrap( document.querySelector( 'body' ), 'layout' )
