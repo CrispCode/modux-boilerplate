@@ -13,7 +13,7 @@ export class DemoComponent extends Component {
   execute () {
     // Waiting for preloader
     this.store.on( 'action.preload', () => {
-        this.element.innerHTML = '<h1>Ta da, Modux!</h1>'
+      this.element.innerHTML = this.store.get( 'settings.texts.hello' )
     }, true )
   }
 }
