@@ -1,6 +1,6 @@
 {
     "name": "@crispcode/modux-boilerplate",
-    "version": "1.2.4",
+    "version": "1.2.5",
     "author": "Crisp Code ( contact@crispcode.ro )",
     "access": "public",
     "description": "A minimal boilerplate project for modux",
@@ -27,7 +27,7 @@
         "url": "https://github.com/CrispCode/modux-boilerplate/issues"
     },
     "dependencies": {
-        "eslint": "^6.8.0",
+        "eslint": "^7.4.0",
         "ncp": "^2.0.0"
     }
 }
